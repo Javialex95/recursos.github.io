@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Trazos por la Reconciliación</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <!-- Jquery descargado -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+</head>
+
+<body style="background-image: url('img/reconciliacion.png');">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo-casa-de-la-memoria.png"></a>
+        </div>
+        <div class="menu">
+            <div class="seccion">
+                <img src="img/banner_trazos_por_la_reconciliacion.png">
+            </div>
+            <span id="hamburguesa" onclick="openNavMenu()">&#9776;</span>
+            <div id="mySidenavMenu" class="sidenavMenu">
+                <ul>
+                    <li><a href="ruta-apropiacion-social.html" onclick="closeNavMenu();"><img
+                                src="img/banner_trueque_por_la_reconciliacion.png"></a></li>
+                    <hr>
+                    <li><a href="ruta-apropiacion-fisica.html" onclick="closeNavMenu();"><img
+                                src="img/banner_video.png"></a></li>
+                    <hr>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNavMenu()"><img src="img/close.png"></a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+
+        <div class="layer"></div>
+        <div class="contenido">
+            <div class="slide texto up">
+                <h4><strong>¿Cómo entender la Apropiación Social de la memoria histórica?</strong></h4>
+
+                <div class="hider-arriba" id="hider-home"></div>
+            </div>
+
+            <div class="slide imagen">
+                <img src="img/social-01.jpg">
+                <div class="degrade"></div>
+                <p> Primer encuentro de victimas, noviembre 2017- SPCC</p>
+            </div>
+
+            <div class="slide texto up">
+                <p>La Apropiación Social de la memoria histórica hace referencia al proceso de
+                    consolidación social que da vida a la Casa de las Memorias del Conflicto y la
+                    Reconciliación, que busca promover la participación de las víctimas y
+                    sobrevivientes del conflicto armado en la construcción colectiva de memorias, a
+                    partir de metodologías participativas con enfoque diferencial y comunitario. Así
+                    mismo, busca promover la participación y encuentro de todos los actores
+                    implicados en la reflexión de la memoria histórica, la construcción de paz y la
+                    reconciliación en el municipio de Santiago de Cali y la región. A continuación se
+                    exponen las <strong>diferentes estrategias</strong> que se han implementado
+                    en esta ruta de apropiación social.</p>
+            </div>
+
+            <div class="slide texto up">
+                <p onclick="plusSlides(1)">Componente acedemico</p>
+                <p onclick="plusSlides(4)">Construccion de memorias</p>
+                <p onclick="plusSlides(8)">Sensibilidad y divulgacion</p>
+                <p onclick="plusSlides(13)">Alianzas</p>
+                <p onclick="plusSlides(18)">Proyecciones</p>
+            </div>
+
+            <div class="slide texto_2">
+                <p>COMPONENTE ACADEMICO</p>
+                <p>-Eventos Academicos</p>
+
+                <div class="socialPadre">
+                    <div>• Foro “Lecciones y Aprendizajes para <br> la Construcción de Memoria <br> Histórica en Cali
+                        Ciudad-Región” <br> - octubre de 2017.
+
+                        <div class="socialPadre_2">
+                            <div>Ver nota</div>
+                            <div>Ver video</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        • Semana Nacional de la Memoria <br> - 16 a 18 de octubre de 2018.
+
+                        <div>Ver más información</div>
+                    </div>
+                </div>
+
+                <div class="socialPadre">
+                    <div>
+                        • Foro Narrativas e Iniciativas De Memoria. <br> Una Construcción Para La Paz <br> - mayo de
+                        2018.
+                        <div>Ver más información</div>
+                    </div>
+
+                    <div>
+                        • “XIII Cátedra Internacional Ignacio Martín <br> Baró: Memoria y Reconciliación”, <br>
+                        Co-organizadores con la Pontificia <br> Universidad Javeriana, Cali <br> - 25 y 26 de octubre de
+                        2018.
+                        <div>Ver más información</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="slide texto">
+                <p>COMPONENTE ACADEMICO</p>
+                <p>-Practicas y voluntariados</p>
+                <p>• Convenio de práctica estudiantil con la Universidad San Buenaventura. Estudiante de Psicología
+                    Elisa Ramírez Arias, Años 2018 -2019.</p>
+                <p>• Convenio de práctica estudiantil con la Universidad del Valle.
+                    Estudiante de Comunicación Manuela Riveros Pabón. Año 2019.</p>
+                <p>• De forma adicional, la Casa de las Memorias del Conflicto y la Reconciliación recibió el apoyo de
+                    un grupo de voluntarios de la Universidad del Valle,
+                    la Universidad de San Buenaventura y la Pontificia Universidad Javeriana Cali.</p>
+            </div>
+
+            <div class="slide imagen">
+                <img src="img/social-02.jpg">
+                <div class="degrade"></div>
+                <p> Primer encuentro de victimas, noviembre 2017- SPCC</p>
+            </div>
+
+            <div class="slide texto">
+                <p>CONSTRUCCION DE MEMORIAS</p>
+                <p>-Dos encuentros masivos con víctimas</p>
+
+                <div>
+                    <p>• I Encuentro: "Comunidades Víctimas
+                        y Lugares de Memoria - Cali Ciudad-Región",
+                        realizado el 18 y 19 de noviembre de 2017.</p>
+                    <div class="socialPadre_2">
+                        <div>Ver fotos</div>
+                        <div>Pauta metodológica</div>
+                    </div>
+                </div>
+
+                <div>
+                    <p>• II Encuentro: "Repertorios de Memoria
+                        y Reconciliación en Cali Ciudad-Región",
+                        realizado el 16 y 17 de noviembre de 2018.</p>
+                    <div class="socialPadre_2">
+                        <div>Ver fotos</div>
+                        <div>Pauta metodológica</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="slide texto">
+                <p>2 CONSTRUCCION DE MEMORIAS</p>
+                <p>-23 talleres</p>
+
+                <div>
+                    <p>Se realizaron veintitrés talleres de museología con enfoque comunitario,
+
+                        con población víctima y sobreviviente del conflicto armado.
+
+                        Los propósitos fueron:
+
+                        1. Construir los insumos museográficos para la Casa
+                        de las Memorias del Conflicto y la Reconciliación.
+
+                        2. Afianzar la Ruta de Apropiación Social de la Casa de las
+
+                        Memorias del Conflicto y la Reconciliación.</p>
+                    <div class="socialPadre_2">
+                        <div>Ver fotos</div>
+                        <div>Ver videos</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="slide texto">
+                <p>2 CONSTRUCCION DE MEMORIAS</p>
+                <p>-17 grupos focales</p>
+                <p>Se realizaron diecisiete grupos focales con poblaciones que sufrieron
+
+                    afectaciones diferenciales en el conflicto armado colombiano, con el propósito de indagar
+                    acerca de los significados que éstas le atribuyen a la memoria histórica y a la reconciliación.
+
+                    Un grupo focal es una entrevista semiestructurada, realizada de manera colectiva,
+                    con el objetivo de abordar una o varias temáticas desde la perspectiva de un
+
+                    grupo pequeño (entre 6 y 12 personas).</p>
+            </div>
+
+            <div class="slide imagen">
+                <img src="img/social-03.jpg">
+                <div class="degrade"></div>
+                <p> Primer encuentro de victimas, noviembre 2017- SPCC</p>
+            </div>
+
+            <div class="slide texto">
+                <p>SENSIBILIDAD Y DIVULGACION</p>
+                <p>La Casa de las Memorias del Conflicto y la Reconciliación ha llevado a cabo
+                    diferentes eventos que promueven la sensibilización y divulgación del
+                    proyecto de memoria y reconciliación que se consolida en el municipio de
+                    Santiago de Cali con víctimas, sobrevivientes y demás personas, grupos,
+
+                    organizaciones e instituciones que convergen en el municipio.</p>
+            </div>
+
+            <div class="slide imagen">
+                <img src="img/social-04.jpg">
+                <div class="degrade"></div>
+                <p> Primer encuentro de victimas, noviembre 2017- SPCC</p>
+            </div>
+
+            <div class="slide texto_3">
+                <p>SENSIBILIDAD Y DIVULGACION</p>
+
+                <div class="socialPadre">
+                    <div>• Acción de memoria en el Terminal<br> Municipal de Transporte de Cali, <br> -noviembre de
+                        2017.<br>
+                        <div class="socialPadre_2">
+                            <div>Ver fotos</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        • Evento de conmemoración 28 años <br> del atentado al avión de Avianca (1989), <br> realizado
+                        en Cali en 2017.
+                        <div class="socialPadre_2">
+                            <div>Ver fotos</div>
+                            <div>Ver notas</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="socialPadre">
+                    <div>
+                        • Evento “Pacto por la Memoria y la Reconciliación <br> de las Víctimas”, desarrollado con la
+                        mesa <br> Municipal de Participación Efectiva de las Víctimas, <br>
+                        Subsecretaría de Atención Integral a Víctimas <br>y Unidad para las Víctimas, -noviembre de 2017
+                        <div class="socialPadre_2">
+                            <div>Ver fotos</div>
+                            <div>Ver notas</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        Visita Guiada con Jóvenes de Llano Verde <br> al Museo Popular de Siloé, Parque Artesanal, <br>
+                        Loma de la Cruz y Cristo Rey, -2017.
+                        <div class="socialPadre_2">
+                            <div>Ver fotos</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide texto_2">
+                <p>SENSIBILIDAD Y DIVULGACION</p>
+                <div class="socialPadre">
+                    <div>• Mural Homenaje a Familiares de<br> desaparecidos en el marco del conflicto <br>armado,
+                        -2017..<br>
+                        <div class="socialPadre_2">
+                            <div>Ver fotos</div>
+                        </div>
+                    </div>
+                    <div>
+                        • Realización de encuesta por <br> participación ciudadana para <br> elegir el nombre del Museo.
+                        <div class="socialPadre_2">
+                            <div>Ver encuesta</div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="socialPadre">
+                    <div>
+                        • Categoría especial de memoria <br> y reconciliación en el Festival de Música <br> del Pacífico
+                        Petronio Álvarez <br>
+                        en agosto 2018.
+                        <div class="socialPadre_2">
+                            <div>Ver fotos</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        • Día Pacifico por la Memoria <br> y la Reconciliación, realizado en <br> El Museo La Tertulia
+                        <br>en agosto de 2019.
+                        <div class="socialPadre_2">
+                            <div>Ver fotos</div>
+                            <div>Ver notas</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide texto">
+                <p>SENSIBILIDAD Y DIVULGACION</p>
+                <div>
+                    <p>• Activación pedagógica en Quilombo pedagógico en Festival de Música del Pacífico Petronio
+                        Álvarez en agosto 2019.</p>
+                    <div class="socialPadre_2">
+                        <div>Ver fotos</div>
+                    </div>
+                </div>
+
+                <div>
+                    <p>• Participación en el "I Encuentro de Memoria y Reconciliación" organizado por la I.E. Ángeles de
+                        Dios. - octubre 2019.</p>
+                    <div class="socialPadre_2">
+                        <div>Ver fotos</div>
+                        <div>Ver notas</div>
+                    </div>
+                </div>
+
+                <div>
+                    <p>• Encuentro "Cantos a la Vida, Versos a la Paz" en el Centro Comercial
+                        Cosmocentro en octubre de 2019.</p>
+                    <div class="socialPadre_2">
+                        <div>Ver fotos</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide texto">
+                <p>4 ALIANZAS</p>
+                <p>Se realizaron cinco alianzas institucionales con el propósito de fortalecer el trabajo
+                    de construcción de memorias y difusión de las mismas:</p>
+                <div>
+                    <p><strong>Alianza para la creación de una Mesa Técnica Interinstitucional, 2017. <br></strong>
+                        Se crea un memorando de entendimiento entre la Secretaría de Paz y Cultura Ciudadana de la
+                        Alcaldía de Santiago de Cali, la Unidad para las Víctimas, la Agencia para la Reincorporación y
+                        Normalización (ARN), el Centro Nacional de Memoria Histórica y la Secretaría de Paz
+                        Territorial y Reconciliación de la Gobernación de Valle del Cauca, con el objetivo de apoyar la
+                        creación del lugar de Memoria, hoy Casa de las Memorias del Conflicto y la Reconciliación.</p>
+                    <div class="socialPadre_2">
+                        <div>Nota de El Tiempo</div>
+                        <div>Nota de El Pais</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide texto">
+                <p>4 ALIANZAS</p>
+                <p><strong>• Alianza de cooperación internacional con la ONG ACDI VOCA, 2017 - 2019.</strong>
+                    Se crea para darle impulso a la construcción de mínimos sociales para la Casa de las Memorias,
+                    mediante la contratación de 3 profesionales y el apoyo en la producción discográfica del
+                    CD "Cantos Pacíficos para la Memoria y la Reconciliación" en convenio con el Centro
+                    Nacional de Memoria Histórica.\onciliación.</p>
+
+                <p>A continuación, se reconoce a las personas delegadas que aportaron en este proceso:
+                    Diana Britto Ruiz (2017-2018), Silvia Cristina Caicedo Muñoz y Carlos Andrés Sánchez - Universidad
+                    de San
+                    Buenaventura Cali. Freddy Alfonso Guerrero Rodríguez - Pontificia Universidad Javeriana. Nelson
+                    Molina Valencia -
+                    Universidad del Valle. Luis Fernando Barón Porras y Diego Cagüeñas Rozo- Universidad Icesi. Ana
+                    Lucia Sánchez
+                    Villafañe y María Catalina Echeverry Londoño - Universidad Cooperativa de Colombia. Charo Andrea
+                    Pacheco Orozco
+                    y Javier Sacha Tafur Mangada - Universidad Santiago de Cali.</p>
+            </div>
+
+            <div class="slide texto">
+                <p>4 ALIANZAS</p>
+                <p><strong>• Alianza para la creación de una Mesa Académica, 2018.</strong>
+
+                    Se crea un memorando de entendimiento entre la Secretaría de Paz y Cultura Ciudadana de
+                    la Alcaldía de Santiago de Cali, la Universidad de San Buenaventura Cali (USB), la Pontificia
+                    Universidad Javeriana Cali (PUJ), la Universidad Santiago de Cali, la Universidad del Valle, la
+                    Universidad Cooperativa de Colombia Sede Cali (UCC) y la Universidad ICESI, con el objetivo de
+                    respaldar el proceso de estructuración de la Casa de las Memorias del Conflicto y la Reconciliación.
+                </p>
+            </div>
+
+            <div class="slide texto">
+                <p>4 ALIANZAS</p>
+                <div>
+                    <p><strong>• Alianza con la Secretaría de Cultura en el marco del Festival de Música
+                            del Pacífico Petronio Álvarez, versión XXII de 2018 y versión XXIII de 2019.</strong>
+                        Esta alianza permitió la participación de la Secretaría de Paz y Cultura Ciudadana en el stand
+                        del
+                        Quilombo Pedagógico en los años 2018 y 2019. Así mismo, la inclusión de una modalidad dentro del
+                        concurso en su versión XXII, que premió las mejores canciones inéditas por cada categoría del
+                        festival, con temáticas alusivas a la memoria y la reconciliación y la grabación del CD “Cantos
+                        pacíficos para la Memoria y la Reconciliación” en el año 2018.</p>
+                    <div class="socialPadre_2">
+                        <div>Ver noticia</div>
+                        <div>Letras de canciones</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide texto">
+                <p>4 ALIANZAS</p>
+                <p><strong>• Alianza para la temporada "Luz para la Memoria", con el Museo La Tertulia, 2019.</strong>
+                    El objetivo de este convenio fue implementar escenarios para el reconocimiento de las
+                    afectaciones del conflicto armado en Santiago de Cali y promocionar la memoria histórica
+                    y el Museo Casa de las Memorias del Conflicto y la Reconciliación mediante la exposición
+                    El Testigo de Jesús Abad Colorado, así como de múltiples actividades pedagógicas
+                    y espacios de sensibilización.</p>
+            </div>
+
+            <div class="slide texto">
+                <p>4 PROYECCIONES</p>
+                <p>Las víctimas y sobrevivientes del conflicto armado, así como las organizaciones y universidades
+                    con quienes se construyeron narrativas de memoria, manifestaron sus expectativas frente a la Casa
+                    de las Memorias del Conflicto y la Reconciliación, la cual proyectan como un lugar vivo y de
+                    encuentro,
+                    que puede ir más allá de sus muros. A continuación, se encuentran algunas frases que dan cuenta de
+                    esas proyecciones.</p>
+            </div>
+
+            <div class="slide texto">
+                <p>4 PROYECCIONES</p>
+                <p>"Para la vida, mirando atrás, se corrigen cosas, a través de los otros se vive la memoria, no es sólo
+                    crear
+                    un museo, hablar de la violencia, conflicto, mejor debería ser hablar de personas, todo esto nos
+                    compete
+                    a todos así sea distintas maneras"</p>
+                <p>Taller Imagen Marca - ejercicio de exploración para la creación de nombre e ícono del museo, 2018.
+                </p>
+                <p>“Por eso me parece importante que repliquen el museo o la memoria, (...) entonces replicar que hay un
+                    lugar de héroes, porque nosotros somos héroes, nosotros al ser desplazados y empezar desde ceros,
+                    somos los verdaderos héroes”.</p>
+                <p>I Encuentro de Víctimas, 2017.</p>
+                <p>“Desde la memoria debemos trabajar por la verdad que nos acerca a la justicia, a la reparación y a la
+                    no
+                    repetición de hechos violentos, al contar las historias de las víctimas del conflicto”.</p>
+                <p>I Encuentro de Víctimas, 2017.</p>
+            </div>
+
+            <div class="slide texto">
+                <p>4 PROYECCIONES</p>
+                <p>“Hay que narrar lo que somos y no lo que nos pasó únicamente”.
+                    <span>Mujeres víctimas - sobrevivientes radicadas en Cali y Mesa de Participación Efectiva de las
+                        Víctimas de Cali y suroccidente colombiano, 2017.</span>
+                </p>
+                <p>“Se debe reconocer que las víctimas en nuestra lucha y sobrevivencia, ya hemos hecho historia”
+                    <span>Mesa Casa de la Memoria de Tumaco y la Costa Pacífica Nariñense.</span>
+                </p>
+                <p>“Es recoger todas las condiciones y recoger el conocimiento de cómo sobrevivimos a nuestra historia”
+                    <span>Mesa Casa de la Memoria de Tumaco y la Costa Pacífica Nariñense.</span>
+                </p>
+                <p>“Lo mejor es que en medio del dolor no se pierde la resistencia (...) que este sitio [Museo] nos
+                    sirva para las organizaciones, para hacer nuestros encuentros”.
+                    <span>Grupo Focal No. 2 de Mujeres Eje 2.</span></p>
+            </div>
+
+            <div class="slide texto">
+                <p>4 PROYECCIONES</p>
+                <p>“El Museo es una ventana para que nos dé luz”.
+                    <span>Grupo Focal No. 2 de Mujeres Eje 2.</span>
+                </p>
+                <p>"Nos han quitado tanto que nos quitaron hasta el miedo, pero no las ganas de luchar".
+                    <span>Grupo Focal AFRODES. Eje 2</span>
+                </p>
+                <p>“Sigamos en la lucha, en este camino que vamos a empezar aquí; nos tenemos que volver como un árbol
+                    frondoso con muchos frutos de cada uno de nosotros”.
+                    <span>Mesa de trabajo con víctimas -sobrevivientes de Cali y Valle del Cauca, así como
+                        representantes del Parque Monumento
+                        de las Víctimas – Trujillo, I Encuentro de Víctimas 2017</span>
+                </p>
+            </div>
+
+            <div class="slide texto">
+                <p>4 PROYECCIONES</p>
+                <p>“Entonces yo pienso que de las experiencias malas, podemos sacar también cosas buenas, podemos
+                    darle un giro a nuestra vida y hacer que eso que fue feo en su momento, no se convierta en el trauma
+                    y el lastre de por vida; sino que se convierta en eso que nos va a dar las alas para brillar y para
+                    ser las
+                    mujeres de éxito” <span>Mujeres víctimas-sobrevivientes radicadas en Cali y pertenecientes a
+                        distintas organizaciones y Mesa de Participación Efectiva de las
+                        Víctimas de Cali y suroccidente colombiano. 1er Encuentro de Víctimas 2017.</span></p>
+                <p>“Pues hemos hecho trabajo y seguimos siendo trabajadoras (...), tratando de hacer un nuevo país,
+                    tratando de crear una paz para nuestra descendencia” “Ese es el don de nosotras las mujeres:
+                    resistir,
+                    persistir, insistir y transformar”. <span>Mujeres víctimas-sobrevivientes radicadas en Cali y
+                        pertenecientes a distintas organizaciones y Mesa de Participación Efectiva de las
+                        Víctimas de Cali y suroccidente colombiano. 1er Encuentro de Víctimas 2017.</span></p>
+            </div>
+
+            <div class="slide texto">
+                <p>4 PROYECCIONES</p>
+                <p>“Esto es algo que a uno no se le olvida, pero hay que continuar hay que seguir” <span>Víctimas y
+                        sobrevivientes del desplazamiento forzado residentes en Cali, 1er Encuentro de Víctimas
+                        2017</span></p>
+                <p>“Cuando yo llegué aquí, yo no sabía qué hacer, me sentía atrapada, a mí me tocó en Buenaventura
+                    andar con el sindicato, yo era una mujer de proceso, entonces cuando llegué aquí le pregunté
+                    a una vecina, vecina: ¿aquí donde se reúnen los desplazados? yo pienso que unidos nos damos ánimos
+                    para seguir adelante”
+                    <span>Víctimas y sobrevivientes del desplazamiento forzado residentes en Cali, I Encuentro de
+                        Víctimas, 2017</span></p>
+
+                <p>“Para mí la memoria sirve para desahogar (...) Es aquí donde yo he venido a tener fuerza porque
+                    gracias a estos programas de memoria es que yo comencé a hablar”<span>Grupo 1. Símbolo del Recuerdo.
+                        Imagen
+                        Marca del MRMH: ejercicios de exploración para la creación de nombre e ícono del museo</span>
+                </p>
+
+            </div>
+
+            <div class="slide texto">
+                <p>4 PROYECCIONES</p>
+                <p>"Estamos haciendo resistencia también aquí, para que nos cumplan la ley". <span>Taller Cartografía
+                        Social Valle del Cauca</span></p>
+                <p>Ellos quieren poder “armar y desarmar el territorio”, tener en el mismo “semilla propia y abono
+                    limpio”.
+                    Que “el territorio es el que inspira”, “aporta a la identidad”, es donde se hace el “trabajo
+                    colectivo” (minga).
+                    Quieren que sea un espacio que demuestre “fortaleza identitaria”, donde se pueda “tocar, gritar,
+                    palpar,
+                    vivir, buscar espacios y momentos de trabajo, con contexto histórico, que muestre sus dolores de
+
+                    desarraigo y despojo, así como los sueños esperanzas y acciones” <span>Grupo focal Cabildo
+                        Misak</span></p>
+
+                <p>"Es importante que quede claro para el Museo, que el Cabildo es ejemplo de resistencia" <span>Grupo
+                        Focal Cabildo Yanacona.</span></p>
+            </div>
+
+            <div class="slide texto">
+                <p>AQUI VA UNA IMAGEN</p>
+            </div>
+
+
+            <div class="slide menuSlide">
+                <div id="menuBarra">
+                    <a href="index.html"><img id="menuLogo" src="img/logo-casa-de-la-memoria.png"></a>
+                    <img id="menuBanner" src="img/banner_trazos_verde.png">
+                </div>
+
+                <a href="ruta-apropiacion-social.html"><img id="menu1"
+                        src="img/menu_trueque_por_la_reconciliacion.png"></a>
+                <a href="ruta-apropiacion-fisica.html"><img id="menu2" src="img/menu_video.png"></a>
+                <hr id="menuHr2">
+
+            </div>
+
+            <!-- Controles -->
+            <div class="control-slider">
+                <p class="arriba" id="arriba" onclick="plusSlides(-1);"><img src="img/arriba.png"></p>
+                <p class="centro"><img src="img/centro.png"></p>
+                <p class="abajo" id="abajo" onclick="plusSlides(1)"><img src="img/abajo.png"></p>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
