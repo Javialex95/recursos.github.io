@@ -655,9 +655,21 @@ img#img-pdf {
     background-color: #80808075;
     padding: 2%;
     box-shadow: 5px 5px 10px #2a2a2b47;
+    top: -1000px;
 }
 
-
+/* Excepciones a algunos modals */
+#modal2{
+    margin: auto;
+    width: 1000px;
+    max-width: 80%;
+    position: relative;
+    background-color: #80808075;
+    padding: 2%;
+    box-shadow: 5px 5px 10px #2a2a2b47;
+    top: -864px;
+    
+}
 
 
 

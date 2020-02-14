@@ -39,15 +39,15 @@ function closeNavMenu() {
 }
 
 
-// RECURSOS Cali
-    /*Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body*/
-    function openNavRecursos() {
-        document.getElementById("mySidenavRecursos").style.cssText = "width: 600px; border-left: solid 10px #3F3E3E;";
-    }
-    /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
-    function closeNavRecursos() {
-        document.getElementById("mySidenavRecursos").style.cssText = "width: 0; border-left: solid 0px transparent;"
-    }
+
+/*Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body*/
+function openNavRecursos() {
+    document.getElementById("mySidenavRecursos").style.cssText = "width: 600px; border-left: solid 10px #3F3E3E;";
+}
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNavRecursos() {
+    document.getElementById("mySidenavRecursos").style.cssText = "width: 0; border-left: solid 0px transparent;"
+}
 
 
 
@@ -60,11 +60,14 @@ function openModal1() {
 // Close the Modal1
 function closeModal1() {
     document.getElementById('myModal1').style.display = "none";
+
 }
 
 // Open the Modal2
 function openModal2() {
-    document.getElementById('myModal2').style.display = "block";
+    var myModal2 = document.getElementById('myModal2');
+    myModal2.style.display = "block";
+    
 }
 
 // Close the Modal2

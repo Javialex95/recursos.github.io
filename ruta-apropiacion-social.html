@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Trazos por la Reconciliación</title>
+    <title>Ruta de apropiación social</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, user-scalable=no">
@@ -80,15 +80,15 @@
                         Ciudad-Región” <br> - octubre de 2017.
 
                         <div class="socialPadre_2">
-                            <div>Ver nota</div>
-                            <div>Ver video</div>
+                            <div onclick="openModal1();">Ver nota</div>
+                            <div onclick="openModal1();">Ver video</div>
                         </div>
                     </div>
 
                     <div>
                         • Semana Nacional de la Memoria <br> - 16 a 18 de octubre de 2018.
 
-                        <div>Ver más información</div>
+                        <div onclick="openModal1();">Ver más información</div>
                     </div>
                 </div>
 
@@ -96,14 +96,24 @@
                     <div>
                         • Foro Narrativas e Iniciativas De Memoria. <br> Una Construcción Para La Paz <br> - mayo de
                         2018.
-                        <div>Ver más información</div>
+                        <div onclick="openModal1();">Ver más información</div>
                     </div>
 
                     <div>
                         • “XIII Cátedra Internacional Ignacio Martín <br> Baró: Memoria y Reconciliación”, <br>
                         Co-organizadores con la Pontificia <br> Universidad Javeriana, Cali <br> - 25 y 26 de octubre de
                         2018.
-                        <div>Ver más información</div>
+                        <div onclick="openModal1();">Ver más información</div>
+                    </div>
+                </div>
+                <!-- Modals -->
+                <div id="myModal1" class="modal" style="display: none;">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal1();">×</span>
+                        <div class="modal-body">
+                            <iframe src="https://calibuenasnoticias.com/2017/09/09/munecas-para-la-paz/"
+                                style="width:1000px; height:900px;" frameborder="0"></iframe>
+                        </div>
                     </div>
                 </div>
 
@@ -136,8 +146,8 @@
                         y Lugares de Memoria - Cali Ciudad-Región",
                         realizado el 18 y 19 de noviembre de 2017.</p>
                     <div class="socialPadre_2">
-                        <div>Ver fotos</div>
-                        <div>Pauta metodológica</div>
+                        <div onclick="openModal2();">Ver fotos</div>
+                        <div onclick="openModal2();">Pauta metodológica</div>
                     </div>
                 </div>
 
@@ -146,8 +156,19 @@
                         y Reconciliación en Cali Ciudad-Región",
                         realizado el 16 y 17 de noviembre de 2018.</p>
                     <div class="socialPadre_2">
-                        <div>Ver fotos</div>
-                        <div>Pauta metodológica</div>
+                        <div onclick="openModal2();">Ver fotos</div>
+                        <div onclick="openModal2();">Pauta metodológica</div>
+                    </div>
+                </div>
+
+                <!-- Modals -->
+                <div id="myModal2" class="modal" style="display: none;">
+                    <div id="modal2" class="modal-content">
+                        <span class="close" onclick="closeModal2();">×</span>
+                        <div class="modal-body">
+                            <iframe src="https://calibuenasnoticias.com/2017/09/09/munecas-para-la-paz/"
+                                style="width:1000px; height:900px;" frameborder="0"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -171,8 +192,19 @@
 
                         Memorias del Conflicto y la Reconciliación.</p>
                     <div class="socialPadre_2">
-                        <div>Ver fotos</div>
-                        <div>Ver videos</div>
+                        <div onclick="openModal1();">Ver fotos</div>
+                        <div onclick="openModal1();">Ver videos</div>
+                    </div>
+                </div>
+
+                <!-- Modals -->
+                <div id="myModal1" class="modal" style="display: none;">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal1();">×</span>
+                        <div class="modal-body">
+                            <iframe src="https://calibuenasnoticias.com/2017/09/09/munecas-para-la-paz/"
+                                style="width:1000px; height:900px;" frameborder="0"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -221,7 +253,7 @@
                     <div>• Acción de memoria en el Terminal<br> Municipal de Transporte de Cali, <br> -noviembre de
                         2017.<br>
                         <div class="socialPadre_2">
-                            <div>Ver fotos</div>
+                            <div onclick="openModal1();">Ver fotos</div>
                         </div>
                     </div>
 
@@ -229,8 +261,8 @@
                         • Evento de conmemoración 28 años <br> del atentado al avión de Avianca (1989), <br> realizado
                         en Cali en 2017.
                         <div class="socialPadre_2">
-                            <div>Ver fotos</div>
-                            <div>Ver notas</div>
+                            <div onclick="openModal1();">Ver fotos</div>
+                            <div onclick="openModal1();">Ver notas</div>
                         </div>
                     </div>
                 </div>
@@ -241,8 +273,8 @@
                         mesa <br> Municipal de Participación Efectiva de las Víctimas, <br>
                         Subsecretaría de Atención Integral a Víctimas <br>y Unidad para las Víctimas, -noviembre de 2017
                         <div class="socialPadre_2">
-                            <div>Ver fotos</div>
-                            <div>Ver notas</div>
+                            <div onclick="openModal1();">Ver fotos</div>
+                            <div onclick="openModal1();">Ver notas</div>
                         </div>
                     </div>
 
@@ -250,7 +282,17 @@
                         Visita Guiada con Jóvenes de Llano Verde <br> al Museo Popular de Siloé, Parque Artesanal, <br>
                         Loma de la Cruz y Cristo Rey, -2017.
                         <div class="socialPadre_2">
-                            <div>Ver fotos</div>
+                            <div onclick="openModal1();">Ver fotos</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modals -->
+                <div id="myModal1" class="modal" style="display: none;">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal1();">×</span>
+                        <div class="modal-body">
+                            <iframe src="https://calibuenasnoticias.com/2017/09/09/munecas-para-la-paz/"
+                                style="width:1000px; height:900px;" frameborder="0"></iframe>
                         </div>
                     </div>
                 </div>
@@ -262,13 +304,13 @@
                     <div>• Mural Homenaje a Familiares de<br> desaparecidos en el marco del conflicto <br>armado,
                         -2017..<br>
                         <div class="socialPadre_2">
-                            <div>Ver fotos</div>
+                            <div onclick="openModal1();">Ver fotos</div>
                         </div>
                     </div>
                     <div>
                         • Realización de encuesta por <br> participación ciudadana para <br> elegir el nombre del Museo.
                         <div class="socialPadre_2">
-                            <div>Ver encuesta</div>
+                            <div onclick="openModal1();">Ver encuesta</div>
 
                         </div>
                     </div>
@@ -280,7 +322,7 @@
                         Petronio Álvarez <br>
                         en agosto 2018.
                         <div class="socialPadre_2">
-                            <div>Ver fotos</div>
+                            <div onclick="openModal1();">Ver fotos</div>
                         </div>
                     </div>
 
@@ -288,8 +330,8 @@
                         • Día Pacifico por la Memoria <br> y la Reconciliación, realizado en <br> El Museo La Tertulia
                         <br>en agosto de 2019.
                         <div class="socialPadre_2">
-                            <div>Ver fotos</div>
-                            <div>Ver notas</div>
+                            <div onclick="openModal1();">Ver fotos</div>
+                            <div onclick="openModal1();">Ver notas</div>
                         </div>
                     </div>
                 </div>
@@ -301,7 +343,7 @@
                     <p>• Activación pedagógica en Quilombo pedagógico en Festival de Música del Pacífico Petronio
                         Álvarez en agosto 2019.</p>
                     <div class="socialPadre_2">
-                        <div>Ver fotos</div>
+                        <div onclick="openModal1();">Ver fotos</div>
                     </div>
                 </div>
 
@@ -309,8 +351,8 @@
                     <p>• Participación en el "I Encuentro de Memoria y Reconciliación" organizado por la I.E. Ángeles de
                         Dios. - octubre 2019.</p>
                     <div class="socialPadre_2">
-                        <div>Ver fotos</div>
-                        <div>Ver notas</div>
+                        <div onclick="openModal1();">Ver fotos</div>
+                        <div onclick="openModal1();">Ver notas</div>
                     </div>
                 </div>
 
@@ -318,7 +360,7 @@
                     <p>• Encuentro "Cantos a la Vida, Versos a la Paz" en el Centro Comercial
                         Cosmocentro en octubre de 2019.</p>
                     <div class="socialPadre_2">
-                        <div>Ver fotos</div>
+                        <div onclick="openModal1();">Ver fotos</div>
                     </div>
                 </div>
             </div>
@@ -335,8 +377,8 @@
                         Territorial y Reconciliación de la Gobernación de Valle del Cauca, con el objetivo de apoyar la
                         creación del lugar de Memoria, hoy Casa de las Memorias del Conflicto y la Reconciliación.</p>
                     <div class="socialPadre_2">
-                        <div>Nota de El Tiempo</div>
-                        <div>Nota de El Pais</div>
+                        <div onclick="openModal1();">Nota de El Tiempo</div>
+                        <div onclick="openModal1();">Nota de El Pais</div>
                     </div>
                 </div>
             </div>
@@ -385,8 +427,8 @@
                         festival, con temáticas alusivas a la memoria y la reconciliación y la grabación del CD “Cantos
                         pacíficos para la Memoria y la Reconciliación” en el año 2018.</p>
                     <div class="socialPadre_2">
-                        <div>Ver noticia</div>
-                        <div>Letras de canciones</div>
+                        <div onclick="openModal1();">Ver noticia</div>
+                        <div onclick="openModal1();">Letras de canciones</div>
                     </div>
                 </div>
             </div>
@@ -546,6 +588,8 @@
 
         </div>
     </section>
+
+
 
     <script src="js/main.js"></script>
 </body>
