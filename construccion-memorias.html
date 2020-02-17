@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ruta de apropiación social</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+
+<body id="bodySocial" style="background-image: url('img/social.png');">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo-casa-de-la-memoria.png"></a>
+        </div>
+        <div class="menu">
+            <div class="seccion">
+                <img src="img/ruta-social-fisica-banner.png">
+                <img src="img/ruta-social-banner.png">
+            </div>
+            <span id="hamburguesa" onclick="openNavMenu()">&#9776;</span>
+            <div id="mySidenavMenu" class="sidenavMenu">
+                <ul>
+                    <li><a href="ruta-apropiacion-fisica.html" onclick="closeNavMenu();"><img
+                                src="img/ruta-fisica-banner.png"></a></li>
+                    <hr>
+
+                    <hr>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNavMenu()"><img src="img/close.png"></a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+
+        <div class="layer"></div>
+        <div class="contenido">
+            <!-- CONSTRUCCION DE MEMORIAS -->
+            <div class="slide texto">
+                <img src="img/construccion-memorias-negro.png">
+                <p>-Dos encuentros masivos con víctimas</p>
+
+                <div>
+                    <p>• I Encuentro: "Comunidades Víctimas
+                        y Lugares de Memoria - Cali Ciudad-Región",
+                        realizado el 18 y 19 de noviembre de 2017.</p>
+                    <div class="socialPadre_2">
+                        <div class="subMenu" onclick="openSlider();">Ver fotos</div>
+                        <div class="subMenu" onclick="openModal1();">Pauta metodológica</div>
+                    </div>
+                </div>
+
+                <div>
+                    <p>• II Encuentro: "Repertorios de Memoria
+                        y Reconciliación en Cali Ciudad-Región",
+                        realizado el 16 y 17 de noviembre de 2018.</p>
+                    <div class="socialPadre_2">
+                        <div class="subMenu" onclick="openSlider2();">Ver fotos</div>
+                        <div class="subMenu" onclick="openModal2();">Pauta metodológica</div>
+                    </div>
+                </div>
+                <div class="hider-arriba" id="hider-construccion"></div>
+            </div>
+
+
+            <div class="slide texto">
+                <img src="img/construccion-memorias-negro.png">
+                <p>-23 talleres</p>
+
+                <div>
+                    <p>Se realizaron veintitrés talleres de museología con enfoque comunitario,
+
+                        con población víctima y sobreviviente del conflicto armado.
+
+                        Los propósitos fueron:
+
+                        1. Construir los insumos museográficos para la Casa
+                        de las Memorias del Conflicto y la Reconciliación.
+
+                        2. Afianzar la Ruta de Apropiación Social de la Casa de las
+
+                        Memorias del Conflicto y la Reconciliación.</p>
+                    <div class="socialPadre_2">
+                        <div class="subMenu" onclick="openSlider3();">Ver fotos</div>
+                        <div class="subMenu" onclick="openSlider4();">Ver videos</div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="slide texto">
+                <img src="img/construccion-memorias-negro.png">
+                <p>-17 grupos focales</p>
+                <p>Se realizaron diecisiete grupos focales con poblaciones que sufrieron
+
+                    afectaciones diferenciales en el conflicto armado colombiano, con el propósito de indagar
+                    acerca de los significados que éstas le atribuyen a la memoria histórica y a la reconciliación.
+
+                    Un grupo focal es una entrevista semiestructurada, realizada de manera colectiva,
+                    con el objetivo de abordar una o varias temáticas desde la perspectiva de un
+
+                    grupo pequeño (entre 6 y 12 personas).</p>
+            </div>
+
+            <div class="slide imagen">
+                <img src="img/social-03.jpg">
+                <div class="degrade"></div>
+                <p> Primer encuentro de victimas, noviembre 2017- SPCC</p>
+            </div>
+
+            <div class="slide texto">
+                <a class="seccionMenu" href="componente-academico.html"><img src="img/componente-academico-menu.png"
+                        alt=""></a>
+                <a class="seccionMenu" href="construccion-memorias.html"><img src="img/construccion-memorias-menu.png"
+                        alt=""></a>
+                <a class="seccionMenu" href="sensibilidad.html"><img src="img/sensibilidad-menu.png" alt=""></a>
+                <a class="seccionMenu" href="alianzas-04.html"><img src="img/alianzas-menu.png" alt=""></a>
+                <a class="seccionMenu" href="proyecciones.html"><img src="img/proyecciones-menu.png" alt=""></a>
+                <div class="hider-arriba" id="hider-menuAbajo"></div>
+            </div>
+
+            <!-- Controles -->
+            <div class="control-slider">
+                <p class="arriba" id="arriba" onclick="plusSlides(-1);"><img src="img/arriba.png"></p>
+                <p class="centro"><img src="img/centro.png"></p>
+                <p class="abajo" id="abajo" onclick="plusSlides(1)"><img src="img/abajo.png"></p>
+            </div>
+
+        </div>
+
+        <!-- Modals -->
+        <div id="slider" class="slide-contenedor" style="display: none;">
+
+            <div>
+                <div class="miSlider fade">
+                    <img src="img/contruccion/encuentro-01/encuentro-01.jpg">
+                </div>
+
+                <div class="miSlider fade">
+                    <img src="img/contruccion/encuentro-01/encuentro-02.jpg">
+                </div>
+
+                <div class="miSlider fade">
+                    <img src="img/contruccion/encuentro-01/encuentro-03.jpg">
+                </div>
+
+                <div class="miSlider fade">
+                    <img src="img/contruccion/encuentro-01/encuentro-04.jpg">
+                </div>
+
+                <div class="miSlider fade">
+                    <img src="img/contruccion/encuentro-01/encuentro-05.jpg">
+                </div>
+
+                <div class="miSlider fade">
+                    <img src="img/contruccion/encuentro-01/encuentro-06.jpg">
+                </div>
+
+                <div class="miSlider fade">
+                    <img src="img/contruccion/encuentro-01/encuentro-07.jpg">
+                </div>
+
+
+                <div class="miSlider fade">
+                    <img src="img/contruccion/encuentro-01/encuentro-08.jpg">
+                </div>
+
+
+                <div class="miSlider fade">
+                    <img src="img/contruccion/encuentro-01/encuentro-09.jpg">
+                </div>
+
+
+                <div class="direcciones">
+                    <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094</a>
+                    <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095</a>
+                </div>
+
+            </div>
+            <span class="closeSlider" onclick="closeSlider();">×</span>
+
+        </div>
+
+        <div id="slider2" class="slide-contenedor" style="display: none;">
+
+            <div>
+                <div class="miSlider2 fade">
+                    <img src="img/contruccion/encuentro-02/encuentro-01.jpg">
+                </div>
+
+                <div class="miSlider2 fade">
+                    <img src="img/contruccion/encuentro-02/encuentro-02.jpg">
+                </div>
+
+                <div class="miSlider2 fade">
+                    <img src="img/contruccion/encuentro-02/encuentro-03.jpg">
+                </div>
+
+                <div class="miSlider2 fade">
+                    <img src="img/contruccion/encuentro-02/encuentro-04.jpg">
+                </div>
+
+                <div class="miSlider2 fade">
+                    <img src="img/contruccion/encuentro-02/encuentro-05.jpg">
+                </div>
+
+                <div class="miSlider2 fade">
+                    <img src="img/contruccion/encuentro-02/encuentro-06.jpg">
+                </div>
+
+                <div class="miSlider2 fade">
+                    <img src="img/contruccion/encuentro-02/encuentro-07.jpg">
+                </div>
+
+                <div class="miSlider2 fade">
+                    <img src="img/contruccion/encuentro-02/encuentro-08.jpg">
+                </div>
+
+                <div class="miSlider2 fade">
+                    <img src="img/contruccion/encuentro-02/encuentro-09.jpg">
+                </div>
+
+                <div class="direcciones">
+                    <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094</a>
+                    <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095</a>
+                </div>
+            </div>
+            <span class="closeSlider" onclick="closeSlider2();">×</span>
+
+        </div>
+
+
+
+        <div id="slider3" class="slide-contenedor" style="display: none;">
+
+            <div>
+                <div class="miSlider3 fade">
+                    <img src="img/contruccion/talleres/taller-01.jpg">
+                </div>
+
+                <div class="miSlider3 fade">
+                    <img src="img/contruccion/talleres/taller-02.jpg">
+                </div>
+
+                <div class="miSlider3 fade">
+                    <img src="img/contruccion/talleres/taller-03.jpg">
+                </div>
+
+                <div class="miSlider3 fade">
+                    <img src="img/contruccion/talleres/taller-04.jpg">
+                </div>
+
+                <div class="miSlider3 fade">
+                    <img src="img/contruccion/talleres/taller-05.jpg">
+                </div>
+
+                <div class="miSlider3 fade">
+                    <img src="img/contruccion/talleres/taller-06.jpg">
+                </div>
+
+                <div class="miSlider3 fade">
+                    <img src="img/contruccion/talleres/taller-07.jpg">
+                </div>
+
+                <div class="miSlider3 fade">
+                    <img src="img/contruccion/talleres/taller-08.jpg">
+                </div>
+
+                <div class="miSlider3 fade">
+                    <img src="img/contruccion/talleres/taller-09.jpg">
+                </div>
+
+                <div class="miSlider3 fade">
+                    <img src="img/contruccion/talleres/taller-10.jpg">
+                </div>
+
+                <div class="miSlider3 fade">
+                    <img src="img/contruccion/talleres/taller-11.jpg">
+                </div>
+
+                <div class="miSlider3 fade">
+                    <img src="img/contruccion/talleres/taller-12.jpg">
+                </div>
+
+                <div class="miSlider3 fade">
+                    <img src="img/contruccion/talleres/taller-13.jpg">
+                </div>
+
+                <div class="miSlider3 fade">
+                    <img src="img/contruccion/talleres/taller-14.jpg">
+                </div>
+
+
+
+                <div class="direcciones">
+                    <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094</a>
+                    <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095</a>
+                </div>
+            </div>
+            <span class="closeSlider" onclick="closeSlider3();">×</span>
+
+        </div>
+
+        <div id="slider4" class="slide-contenedor" style="display: none;">
+
+            <div>
+                <div class="miSlider4 fade">
+                    <video src="recursos/videos/construccion-01.mp4" controls></video>
+                </div>
+
+                <div class="miSlider4 fade">
+                    <video src="recursos/videos/construccion-02.mp4" controls></video>
+                </div>
+
+                <div class="miSlider4 fade">
+                    <video src="recursos/videos/construccion-03.mp4" controls></video>
+                </div>
+
+                <div class="miSlider4 fade">
+                    <video src="recursos/videos/construccion-04.mp4" controls></video>
+                </div>
+
+                <div class="direcciones videoDireccion">
+                    <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094</a>
+                    <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095</a>
+                </div>
+            </div>
+            <span class="closeSlider" onclick="closeSlider4();">×</span>
+
+        </div>
+
+        <div id="myModal1" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal1();">×</span>
+                <div class="modal-body">
+                    <iframe src="recursos/construccion/recurso-01.pdf" style="width:1000px; height:900px;"
+                        frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal2" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal2();">×</span>
+                <div class="modal-body">
+                    <iframe src="recursos/construccion/recurso-02.pdf" style="width:1000px; height:900px;"
+                        frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>

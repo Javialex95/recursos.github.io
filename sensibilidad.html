@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ruta de apropiación social</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+
+<body id="bodySocial" style="background-image: url('img/social.png');">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo-casa-de-la-memoria.png"></a>
+        </div>
+        <div class="menu">
+            <div class="seccion">
+                <img src="img/ruta-social-fisica-banner.png">
+                <img src="img/ruta-social-banner.png">
+            </div>
+            <span id="hamburguesa" onclick="openNavMenu()">&#9776;</span>
+            <div id="mySidenavMenu" class="sidenavMenu">
+                <ul>
+                    <li><a href="ruta-apropiacion-fisica.html" onclick="closeNavMenu();"><img
+                                src="img/ruta-fisica-banner.png"></a></li>
+                    <hr>
+
+                    <hr>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNavMenu()"><img src="img/close.png"></a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+
+        <div class="layer"></div>
+        <div class="contenido">
+           <!-- SENSIBILIDAD Y DIVULGACIÓN -->
+
+           <div class="slide texto">
+            <img src="img/sensibilidad-negro.png">
+            <p>La Casa de las Memorias del Conflicto y la Reconciliación ha llevado a cabo
+                diferentes eventos que promueven la sensibilización y divulgación del
+                proyecto de memoria y reconciliación que se consolida en el municipio de
+                Santiago de Cali con víctimas, sobrevivientes y demás personas, grupos,
+
+                organizaciones e instituciones que convergen en el municipio.</p>
+            <div class="hider-arriba" id="hider-sensibilidad"></div>
+        </div>
+
+        <div class="slide imagen">
+            <img src="img/social-04.jpg">
+            <div class="degrade"></div>
+            <p> Primer encuentro de victimas, noviembre 2017- SPCC</p>
+        </div>
+
+        <div class="slide texto_3">
+            <img src="img/sensibilidad-negro.png">
+
+            <div class="socialPadre">
+                <div>• Acción de memoria en el Terminal<br> Municipal de Transporte de Cali, <br> -noviembre de
+                    2017.<br>
+                    <div class="socialPadre_2">
+                        <div class="subMenu" onclick="openModal12();">Ver fotos</div>
+                    </div>
+                </div>
+
+                <div>
+                    • Evento de conmemoración 28 años <br> del atentado al avión de Avianca (1989), <br> realizado
+                    en Cali en 2017.
+                    <div class="socialPadre_2">
+                        <div class="subMenu" onclick="openModal13();">Ver fotos</div>
+                        <div class="subMenu" onclick="openModal14();">Ver nota</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="socialPadre">
+                <div>
+                    • Evento “Pacto por la Memoria y la Reconciliación <br> de las Víctimas”, desarrollado con la
+                    mesa <br> Municipal de Participación Efectiva de las Víctimas, <br>
+                    Subsecretaría de Atención Integral a Víctimas <br>y Unidad para las Víctimas, -noviembre de 2017
+                    <div class="socialPadre_2">
+                        <div class="subMenu" onclick="openModal15();">Ver fotos</div>
+                        <div class="subMenu" onclick="openModal16();">Ver nota</div>
+                    </div>
+                </div>
+
+                <div>
+                    Visita Guiada con Jóvenes de Llano Verde <br> al Museo Popular de Siloé, Parque Artesanal, <br>
+                    Loma de la Cruz y Cristo Rey, -2017.
+                    <div class="socialPadre_2">
+                        <div class="subMenu" onclick="openModal17();">Ver fotos</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modals -->
+            <div id="myModal14" class="modal" style="display: none;">
+                <div class="modal-sensibilidad ">
+                    <span class="close" onclick="closeModal14();">×</span>
+                    <div class="modal-body">
+                        <iframe
+                            src="https://www.cali.gov.co/bienestar/publicaciones/137277/pacto-por-la-memoria-y-reconciliacion-de-las-victimas/"
+                            style="width:1000px; height:900px;" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div id="myModal16" class="modal" style="display: none;">
+                <div class="modal-sensibilidad ">
+                    <span class="close" onclick="closeModal16();">×</span>
+                    <div class="modal-body">
+                        <iframe
+                            src="https://www.cali.gov.co/pazycultura/publicaciones/137582/cali-conmemora-este-lunes-los-28-anos-del-atentado-de-avianca/"
+                            style="width:1000px; height:900px;" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide texto_2">
+            <img src="img/sensibilidad-negro.png">
+            <div class="socialPadre">
+                <div>• Mural Homenaje a Familiares de<br> desaparecidos en el marco del conflicto <br>armado,
+                    -2017..<br>
+                    <div class="socialPadre_2">
+                        <div class="subMenu" onclick="openModal19();">Ver fotos</div>
+                    </div>
+                </div>
+                <div>
+                    • Realización de encuesta por <br> participación ciudadana para <br> elegir el nombre del Museo.
+                    <div class="socialPadre_2">
+                        <div class="subMenu" onclick="openModal20();">Ver encuesta</div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="socialPadre">
+                <div>
+                    • Categoría especial de memoria <br> y reconciliación en el Festival de Música <br> del Pacífico
+                    Petronio Álvarez <br>
+                    en agosto 2018.
+                    <div class="socialPadre_2">
+                        <div class="subMenu" onclick="openModal21();">Ver fotos</div>
+                    </div>
+                </div>
+
+                <div>
+                    • Día Pacifico por la Memoria <br> y la Reconciliación, realizado en <br> El Museo La Tertulia
+                    <br>en agosto de 2019.
+                    <div class="socialPadre_2">
+                        <div class="subMenu" onclick="openModal22();">Ver fotos</div>
+                        <div class="subMenu" onclick="openModal23();">Ver nota</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modals -->
+            <div id="myModal20" class="modal" style="display: none;">
+                <div class="modal-sensibilidad ">
+                    <span class="close" onclick="closeModal20();">×</span>
+                    <div class="modal-body">
+                        <iframe
+                            src="https://www.cali.gov.co/pazycultura/publicaciones/145322/veni-ayudanos-a-escoger-el-nombre-del-museo-de-memoria-historica-del-conflicto-y-la-reconciliacion/"
+                            style="width:1000px; height:900px;" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div id="myModal23" class="modal" style="display: none;">
+                <div class="modal-sensibilidad ">
+                    <span class="close" onclick="closeModal23();">×</span>
+                    <div class="modal-body">
+                        <iframe
+                            src="https://verdadabierta.com/petronio-alvarez-le-cantara-la-memoria-la-reconciliacion/"
+                            style="width:1000px; height:900px;" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide texto">
+            <img src="img/sensibilidad-negro.png">
+            <div>
+                <p>• Activación pedagógica en Quilombo pedagógico en Festival de Música del Pacífico Petronio
+                    Álvarez en agosto 2019.</p>
+                <div class="socialPadre_2">
+                    <div class="subMenu" onclick="openModal24();">Ver fotos</div>
+                </div>
+            </div>
+
+            <div>
+                <p>• Participación en el "I Encuentro de Memoria y Reconciliación" organizado por la I.E. Ángeles de
+                    Dios. - octubre 2019.</p>
+                <div class="socialPadre_2">
+                    <div class="subMenu" onclick="openModal25();">Ver fotos</div>
+                    <div class="subMenu" onclick="openModal26();">Ver nota</div>
+                </div>
+            </div>
+
+            <div>
+                <p>• Encuentro "Cantos a la Vida, Versos a la Paz" en el Centro Comercial
+                    Cosmocentro en octubre de 2019.</p>
+                <div class="socialPadre_2">
+                    <div class="subMenu" onclick="openModal27();">Ver fotos</div>
+                </div>
+            </div>
+
+            <!-- Modals -->
+            <div id="myModal26" class="modal" style="display: none;">
+                <div class="modal-sensibilidad ">
+                    <span class="close" onclick="closeModal26();">×</span>
+                    <div class="modal-body">
+                        <iframe
+                            src="https://www.cali.gov.co/educacion/publicaciones/150198/memoria-y-reconciliacion-la-escuela-como-lugar-de-paz/"
+                            style="width:1000px; height:900px;" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+            <div class="slide texto">
+                <a class="seccionMenu"  href="componente-academico.html"><img src="img/componente-academico-menu.png" alt=""></a>
+                <a class="seccionMenu" href="construccion-memorias.html"><img src="img/construccion-memorias-menu.png" alt=""></a>
+                <a class="seccionMenu" href="sensibilidad.html"><img src="img/sensibilidad-menu.png" alt=""></a>
+                <a class="seccionMenu"  href="alianzas-04.html"><img src="img/alianzas-menu.png" alt=""></a>
+                <a class="seccionMenu"  href="proyecciones.html"><img src="img/proyecciones-menu.png" alt=""></a>
+                <div class="hider-arriba" id="hider-menuAbajo"></div>
+            </div>
+
+             <!-- Controles -->
+             <div class="control-slider">
+                <p class="arriba" id="arriba" onclick="plusSlides(-1);"><img src="img/arriba.png"></p>
+                <p class="centro"><img src="img/centro.png"></p>
+                <p class="abajo" id="abajo" onclick="plusSlides(1)"><img src="img/abajo.png"></p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>

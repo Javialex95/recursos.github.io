@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ruta de apropiación social</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+
+
+
+<body>
+
+    <button onclick="openSlider();">Abrir Slider</button>
+
+
+    <div id="slider" class="slide-contenedor" style="display: none;">
+        
+        <div>
+            <div class="miSlider fade">
+                <img src="img/social-01.jpg">
+            </div>
+    
+            <div class="miSlider fade">
+                <img src="img/social-02.jpg">
+            </div>
+    
+            <div class="miSlider fade">
+                <img src="img/social-03.jpg">
+            </div>
+            <div class="direcciones">
+                <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094</a>
+                <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095</a>
+            </div>
+    
+            <div class="barras">
+                <span class="barra active" onclick="posicionSlide(1)"></span>
+                <span class="barra " onclick="posicionSlide(2)"></span>
+                <span class="barra " onclick="posicionSlide(3)"></span>
+            </div>
+        </div>
+        <span class="closeSlider" onclick="closeSlider();">×</span>
+
+    </div>
+
+    <!-- JS -->
+    <script src="js/slider.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ruta de apropiación social</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+
+<body id="bodySocial" style="background-image: url('img/social.png');">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo-casa-de-la-memoria.png"></a>
+        </div>
+        <div class="menu">
+            <div class="seccion">
+                <img src="img/ruta-social-fisica-banner.png">
+                <img src="img/ruta-social-banner.png">
+            </div>
+            <span id="hamburguesa" onclick="openNavMenu()">&#9776;</span>
+            <div id="mySidenavMenu" class="sidenavMenu">
+                <ul>
+                    <li><a href="ruta-apropiacion-fisica.html" onclick="closeNavMenu();"><img
+                                src="img/ruta-fisica-banner.png"></a></li>
+                    <hr>
+
+                    <hr>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNavMenu()"><img src="img/close.png"></a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+
+        <div class="layer"></div>
+        <div class="contenido">
+            <!-- COMPONENTE ACADEMICO: -->
+
+            <div class="slide texto_2">
+                <img src="img/componente-academico-negro.png">
+                <p>-Eventos Academicos</p>
+
+                <div class="socialPadre">
+                    <div>• Foro “Lecciones y Aprendizajes para <br> la Construcción de Memoria <br> Histórica en Cali
+                        Ciudad-Región” <br> - octubre de 2017.
+
+                        <div class="socialPadre_2">
+                            <div class="subMenu" onclick="openModal1();">Ver nota</div>
+                            <div class="subMenu" onclick="openModal2();">Ver video</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        • Semana Nacional de la Memoria <br> - 16 a 18 de octubre de 2018.
+                        <div class="subMenu" onclick="openModal3();">Ver más información</div>
+                    </div>
+                </div>
+
+                <div class="socialPadre">
+                    <div>
+                        • Foro Narrativas e Iniciativas De Memoria. <br> Una Construcción Para La Paz <br> - mayo de
+                        2018.
+                        <div class="subMenu" onclick="openModal4();">Ver más información</div>
+                    </div>
+
+                    <div>
+                        • “XIII Cátedra Internacional Ignacio Martín <br> Baró: Memoria y Reconciliación”, <br>
+                        Co-organizadores con la Pontificia <br> Universidad Javeriana, Cali <br> - 25 y 26 de octubre de
+                        2018.
+                        <div class="subMenu" onclick="openModal5();">Ver más información</div>
+                    </div>
+                </div>
+
+               
+                <div class="hider-arriba" id="hider-academico"></div>
+            </div>
+
+            <div class="slide texto">
+                <img src="img/componente-academico-negro.png">
+                <p>-Practicas y voluntariados</p>
+                <p>• Convenio de práctica estudiantil con la Universidad San Buenaventura. Estudiante de Psicología
+                    Elisa Ramírez Arias, Años 2018 -2019.</p>
+                <p>• Convenio de práctica estudiantil con la Universidad del Valle.
+                    Estudiante de Comunicación Manuela Riveros Pabón. Año 2019.</p>
+                <p>• De forma adicional, la Casa de las Memorias del Conflicto y la Reconciliación recibió el apoyo de
+                    un grupo de voluntarios de la Universidad del Valle,
+                    la Universidad de San Buenaventura y la Pontificia Universidad Javeriana Cali.</p>
+            </div>
+
+            <div class="slide imagen">
+                <img src="img/social-02.jpg">
+                <div class="degrade"></div>
+                <p> Primer encuentro de victimas, noviembre 2017- SPCC</p>
+            </div>
+
+            <div class="slide texto">
+                <a class="seccionMenu"  href="componente-academico.html"><img src="img/componente-academico-menu.png" alt=""></a>
+                <a class="seccionMenu" href="construccion-memorias.html"><img src="img/construccion-memorias-menu.png" alt=""></a>
+                <a class="seccionMenu" href="sensibilidad.html"><img src="img/sensibilidad-menu.png" alt=""></a>
+                <a class="seccionMenu"  href="alianzas-04.html"><img src="img/alianzas-menu.png" alt=""></a>
+                <a class="seccionMenu"  href="proyecciones.html"><img src="img/proyecciones-menu.png" alt=""></a>
+                <div class="hider-arriba" id="hider-menuAbajo"></div>
+            </div>
+
+             <!-- Controles -->
+             <div class="control-slider">
+                <p class="arriba" id="arriba" onclick="plusSlides(-1);"><img src="img/arriba.png"></p>
+                <p class="centro"><img src="img/centro.png"></p>
+                <p class="abajo" id="abajo" onclick="plusSlides(1)"><img src="img/abajo.png"></p>
+            </div>
+
+
+             <!-- Modals -->
+             <div id="myModal1" class="modal" style="display: none;">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal1();">×</span>
+                    <div class="modal-body">
+                        <iframe src="https://www.cali.gov.co/pazycultura/publicaciones/135517/este-viernes-foro-donde-se-abordaran-experiencias-e-iniciativas-de-memoria-historica/" style="width:1000px; height:900px;"
+                            frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div id="myModal2" class="modal" style="display: none;">
+                <div class="modal-contentVideo">
+                    <span class="close" onclick="closeModal2();">×</span>
+                    <div class="modal-body"></div>
+                        <video src="recursos/videos/componente-academico-video.mp4" controls></video>
+                    </div>
+                </div>
+            </div>
+
+            <div id="myModal3" class="modal" style="display: none;">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal3();">×</span>
+                    <div class="modal-body">
+                        <iframe src="https://www.ucc.edu.co/noticias/eventos/academico/Foro-Narrativas-e-Iniciativas-de%20Memoria-Una-Construccion-para-la-Paz" style="width:1000px; height:900px;"
+                            frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div id="myModal4" class="modal" style="display: none;">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal4();">×</span>
+                    <div class="modal-body">
+                        <iframe src="https://www.cali.gov.co/pazycultura/publicaciones/144097/cali-escucha-las-voces-de-la-resiliencia-en-la-semana-nacional-de-la-memoria/" style="width:1000px; height:900px;"
+                            frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div id="myModal5" class="modal" style="display: none;">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal5();">×</span>
+                    <div class="modal-body">
+                        <iframe src="https://www.javerianacali.edu.co/noticias/el-valor-reivindicativo-de-la-memoria" style="width:1000px; height:900px;"
+                            frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>

@@ -1,6 +1,7 @@
+
 'use strict'
 
-// slides
+// slides paginas
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -20,10 +21,12 @@ function showSlides(n) {
     var slides = document.getElementsByClassName("slide");
     if (n > slides.length) { slideIndex = 1 }
     if (n < 1) { slideIndex = slides.length }
+
     for (i = 0; i < slides.length; i++) {
         slides[i].style.cssText = "visibility:hidden; opacity:0; animation: salida 2.8s linear;";
     }
     slides[slideIndex - 1].style.cssText = "visibility:visible; opacity:1; animation: entrada 3s linear;";
+
 }
 
 
@@ -31,12 +34,21 @@ function showSlides(n) {
 
 /*Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body*/
 function openNavMenu() {
-    document.getElementById("mySidenavMenu").style.width = "587px";
+    document.getElementById("mySidenavMenu").style.width = "465px";
 }
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
 function closeNavMenu() {
     document.getElementById("mySidenavMenu").style.width = "0";
 }
+
+function openNavMenuIndex() {
+    document.getElementById("mySidenavMenuIndex").style.width = "649px";
+}
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNavMenuIndex() {
+    document.getElementById("mySidenavMenuIndex").style.width = "0";
+}
+
 
 
 
@@ -48,6 +60,7 @@ function openNavRecursos() {
 function closeNavRecursos() {
     document.getElementById("mySidenavRecursos").style.cssText = "width: 0; border-left: solid 0px transparent;"
 }
+
 
 
 
@@ -67,7 +80,7 @@ function closeModal1() {
 function openModal2() {
     var myModal2 = document.getElementById('myModal2');
     myModal2.style.display = "block";
-    
+
 }
 
 // Close the Modal2
@@ -155,6 +168,214 @@ function closeModal10() {
     document.getElementById('myModal10').style.display = "none";
 }
 
+// Open the Modal
+function openModal11() {
+    document.getElementById('myModal11').style.display = "block";
+}
+
+// Close the Modal
+function closeModal11() {
+    document.getElementById('myModal11').style.display = "none";
+}
+
+// Open the Modal
+function openModal12() {
+    document.getElementById('myModal12').style.display = "block";
+}
+
+// Close the Modal
+function closeModal12() {
+    document.getElementById('myModal12').style.display = "none";
+}
+// Open the Modal
+function openModal13() {
+    document.getElementById('myModal13').style.display = "block";
+}
+
+// Close the Modal
+function closeModal13() {
+    document.getElementById('myModal13').style.display = "none";
+}
+
+// Open the Modal
+function openModal14() {
+    document.getElementById('myModal14').style.display = "block";
+}
+
+// Close the Modal
+function closeModal14() {
+    document.getElementById('myModal14').style.display = "none";
+}
+
+// Open the Modal
+function openModal15() {
+    document.getElementById('myModal15').style.display = "block";
+}
+
+// Close the Modal
+function closeModal15() {
+    document.getElementById('myModal15').style.display = "none";
+}
+
+// Open the Modal
+function openModal16() {
+    document.getElementById('myModal16').style.display = "block";
+}
+
+// Close the Modal
+function closeModal16() {
+    document.getElementById('myModal16').style.display = "none";
+}
+
+// Open the Modal
+function openModal17() {
+    document.getElementById('myModal17').style.display = "block";
+}
+
+// Close the Modal
+function closeModal17() {
+    document.getElementById('myModal17').style.display = "none";
+}
+
+// Open the Modal
+function openModal18() {
+    document.getElementById('myModal18').style.display = "block";
+}
+
+// Close the Modal
+function closeModal18() {
+    document.getElementById('myModal18').style.display = "none";
+}
+
+// Open the Modal
+function openModal19() {
+    document.getElementById('myModal19').style.display = "block";
+}
+
+// Close the Modal
+function closeModal19() {
+    document.getElementById('myModal19').style.display = "none";
+}
+
+// Open the Modal
+function openModal20() {
+    document.getElementById('myModal20').style.display = "block";
+}
+
+// Close the Modal
+function closeModal20() {
+    document.getElementById('myModal20').style.display = "none";
+}
+
+// Open the Modal
+function openModal21() {
+    document.getElementById('myModal21').style.display = "block";
+}
+
+// Close the Modal
+function closeModal21() {
+    document.getElementById('myModal21').style.display = "none";
+}
+
+// Open the Modal
+function openModal22() {
+    document.getElementById('myModal22').style.display = "block";
+}
+
+// Close the Modal
+function closeModal22() {
+    document.getElementById('myModal22').style.display = "none";
+}
+
+// Open the Modal
+function openModal23() {
+    document.getElementById('myModal23').style.display = "block";
+}
+
+// Close the Modal
+function closeModal23() {
+    document.getElementById('myModal23').style.display = "none";
+}
+
+// Open the Modal
+function openModal24() {
+    document.getElementById('myModal24').style.display = "block";
+}
+
+// Close the Modal
+function closeModal24() {
+    document.getElementById('myModal24').style.display = "none";
+}
+
+// Open the Modal
+function openModal25() {
+    document.getElementById('myModal25').style.display = "block";
+}
+
+// Close the Modal
+function closeModal25() {
+    document.getElementById('myModal25').style.display = "none";
+}
+
+// Open the Modal
+function openModal26() {
+    document.getElementById('myModal26').style.display = "block";
+}
+
+// Close the Modal
+function closeModal26() {
+    document.getElementById('myModal26').style.display = "none";
+}
+
+// Open the Modal
+function openModal27() {
+    document.getElementById('myModal27').style.display = "block";
+}
+
+// Close the Modal
+function closeModal27() {
+    document.getElementById('myModal27').style.display = "none";
+}
+
+// Open the Modal
+function openModal28() {
+    document.getElementById('myModal28').style.display = "block";
+}
+
+// Close the Modal
+function closeModal28() {
+    document.getElementById('myModal28').style.display = "none";
+}
+
+// Open the Modal
+function openModal29() {
+    document.getElementById('myModal29').style.display = "block";
+}
+
+// Close the Modal
+function closeModal29() {
+    document.getElementById('myModal29').style.display = "none";
+}
+
+// Open the Modal
+function openModal30() {
+    document.getElementById('myModal30').style.display = "block";
+}
+
+// Close the Modal
+function closeModal30() {
+    document.getElementById('myModal30').style.display = "none";
+}
+
+// Open the Modal
+function openModal31() {
+    document.getElementById('myModal31').style.display = "block";
+}
+
+// Close the Modal
+function closeModal31() {
+    document.getElementById('myModal31').style.display = "none";
+}
 
 // DESACTIVAR CLIC DERECHO 
 document.oncontextmenu = new Function("return false;");
